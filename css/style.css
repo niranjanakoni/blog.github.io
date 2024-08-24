@@ -34,14 +34,14 @@ main {
   margin-top: 20px;
 }
 
-.posts article {
+.post {
   background: #fff;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
 }
 
-.posts h3 {
+.post h2 {
   margin-bottom: 10px;
 }
 
