@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif; /* Changed font style to Roboto */
   line-height: 1.6;
   color: #333;
   background-color: #f4f4f4;
@@ -34,15 +34,28 @@ main {
   margin-top: 20px;
 }
 
-.post {
+.content-wrapper {
   background: #fff;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 20px; /* Added padding to ensure text does not touch the edges */
   border-radius: 5px;
+  overflow: hidden; /* Ensure content does not overflow */
+}
+
+.post {
+  margin-bottom: 10px;
 }
 
 .post h2 {
   margin-bottom: 10px;
+}
+
+.post ul {
+  margin-left: 20px; /* Indent sub-points */
+  list-style-type: disc; /* Use disc bullets for sub-points */
+}
+
+.post ol {
+  margin-left: 20px; /* Indent ordered list */
 }
 
 footer {
