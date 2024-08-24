@@ -68,3 +68,27 @@ footer {
   left: 0;
   width: 100%;
 }
+
+/* New class to remove underline from links and make them black */
+.no-underline {
+  text-decoration: none;
+  color: black;
+}
+
+article {
+    background-color: #f0f0f0; /* Change this to your desired color */
+    outline: 0.5px solid #cfcece; /* Change this to your desired outline color and width */
+    padding: 10px; /* Optional: Add some padding inside the article */
+}
+
+.custom-bullet {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.post-meta {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
